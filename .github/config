@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/eugenp/learn-spring-security.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = myself
+	merge = refs/heads/master
+[remote "myself"]
+	url = git@github-yanmastra:yanmastra/learn-spring-security
+	fetch = +refs/heads/*:refs/remotes/myself/*
