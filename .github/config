@@ -14,3 +14,5 @@
 [remote "myself"]
 	url = git@github-yanmastra:yanmastra/learn-spring-security
 	fetch = +refs/heads/*:refs/remotes/myself/*
+[pull]
+	rebase = false
